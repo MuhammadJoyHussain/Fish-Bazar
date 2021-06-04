@@ -8,11 +8,7 @@
     "eject": "expo eject"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "expo": "~41.0.1",
-=======
     "expo": "^41.0.1",
->>>>>>> 3595eb28db3fe8d7c92372d08c6d299f5f66567e
     "expo-status-bar": "~1.0.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
