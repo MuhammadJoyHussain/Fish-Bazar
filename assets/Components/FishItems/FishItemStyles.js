@@ -10,29 +10,33 @@ const styles = StyleSheet.create({
       titles: {
         marginTop: "30%",
         width: "100%",
-        alignItems: "center"
+        alignItems: "center",
+        justifyContent: 'center'
       },
     
       title: {
         fontSize: 40,
         fontWeight: "500",
+        alignItems: "center",
+        justifyContent: 'center'
       },
     
       subtitle: {
         fontSize: 16,
-        color: "#5c5e62",
+        color: "#000",
+        fontWeight: 'bold',
+        alignItems: "center",
+        justifyContent: 'center'
     
       },
 
-      subtitleCTA: {
-        textDecorationLine: "underline"
-      },
     
       image: {
         width: "100%",
         height: "100%",
         resizeMode: "cover",
         position: "absolute",
+        opacity: 0.5,
       },
 
       buttonsContainer: {

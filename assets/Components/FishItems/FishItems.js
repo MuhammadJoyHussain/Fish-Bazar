@@ -1,9 +1,9 @@
 import React from 'react';
 import { View, Text, ImageBackground } from 'react-native';
 import Button from '../StyledButton/Button';
-import styles from './CarItemStyles';
+import styles from './FishItemStyles';
 
-const CarItems = (props) => {
+const FishItems = (props) => {
     const { name, tagline, taglineCTA, image } = props.car;
 
     return (
@@ -16,22 +16,18 @@ const CarItems = (props) => {
 
             <View style={styles.titles}>
                 <Text style={styles.title}>{name}</Text>
-                <Text style={styles.subtitle}>{tagline}{" "}<Text style={styles.subtitleCTA}>{taglineCTA}</Text></Text>
+                <Text style={styles.subtitle}>{tagline}{" "}</Text>
             </View>
 
             <View style={styles.buttonsContainer}>
             <Button type="primary" 
-            content={"Custom Order"} 
+            content={"Order Now"} 
             onPress={() => {}} 
             />
 
-            <Button type="secondary" 
-            content={"Existing inventory"} 
-            onPress={() =>{}} 
-            />
             </View>
         </View>
     );
 };
 
-export default CarItems;
+export default FishItems;
