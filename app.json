@@ -1,7 +1,12 @@
 {
   "expo": {
+<<<<<<< HEAD
     "name": "fishBazar",
     "slug": "fishBazar",
+=======
+    "name": "fish-bazar",
+    "slug": "fish-bazar",
+>>>>>>> 3595eb28db3fe8d7c92372d08c6d299f5f66567e
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
